@@ -1,0 +1,11 @@
+exports.run = async (bot,message,args) => {
+    let member = message.mentions.members.first();
+    if(!member) { message.channel.send('I’m fucking shaking and crying right now y’all, and people aren’t taking me seriously. This is a DUMB FUCKING HOLIDAY, where people say shit that ISN’T FUCKING REAL for NO REASON. I’ve cut off 8 family members already for falling for this shriveled up, half-assed ANNUAL CORPORATE FIG LEAF like the NPC SHEEP THEY ARE. Maybe if they listened to REAL COMEDY like Bill Maher or political satire that validates what I already believe in, they’d be WORTHY OF INTERACTING WITH. BUT NO, I have to scroll through my timeline, seething, wailing and gnashing my teeth as I’m BOMBARDED BY LOW EFFORT CORNY CAPITALIST PROPOGANDA. THIS IS A SERIOUS DAY. I’m allowed to be this pressed about ha-ha corny joke day because IT’S SERIOUS FOR ME AND THEREFORE SHOULD BE FOR EVERYONE. My great uncle was tragically flattened while trying to rob a coca-cola vending machine on this date, and PEOPLE ARE STILL MAKING CORNU FUKUNG JOKES. I’ve had enough');} else {
+        message.channel.send(`I’m fucking shaking and crying right now y’all, and people aren’t taking me seriously. This is a DUMB FUCKING HOLIDAY, where people say shit that ISN’T FUCKING REAL for NO REASON. I’ve cut off 8 family members already for falling for this shriveled up, half-assed ANNUAL CORPORATE FIG LEAF like the NPC SHEEP THEY ARE. Maybe if they listened to REAL COMEDY like Bill Maher or political satire that validates what I already believe in, they’d be WORTHY OF INTERACTING WITH. BUT NO, I have to scroll through my timeline, seething, wailing and gnashing my teeth as I’m BOMBARDED BY LOW EFFORT CORNY CAPITALIST PROPOGANDA. THIS IS A SERIOUS DAY. I’m allowed to be this pressed about ha-ha corny joke day because IT’S SERIOUS FOR ME AND THEREFORE SHOULD BE FOR EVERYONE. My great uncle was tragically flattened while trying to rob a coca-cola vending machine on this date, and PEOPLE ARE STILL MAKING CORNU FUKUNG JOKES. I’ve had enough`)
+    }
+
+}
+
+exports.help = {
+name: 'aprilfools'
+}
